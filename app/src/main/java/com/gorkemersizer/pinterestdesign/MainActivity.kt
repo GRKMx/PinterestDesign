@@ -1,10 +1,13 @@
 package com.gorkemersizer.pinterestdesign
 
-import androidx.appcompat.app.AppCompatActivity
+import android.os.Build
 import android.os.Bundle
-import androidx.core.content.ContentProviderCompat.requireContext
-import androidx.recyclerview.widget.StaggeredGridLayoutManager
+import android.view.View
+import android.view.WindowInsetsController.APPEARANCE_LIGHT_STATUS_BARS
+import android.view.WindowManager
+import androidx.appcompat.app.AppCompatActivity
 import com.gorkemersizer.pinterestdesign.databinding.ActivityMainBinding
+
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -12,7 +15,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
 
     }
 }

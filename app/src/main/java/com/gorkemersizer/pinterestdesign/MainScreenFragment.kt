@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.WindowManager
 import androidx.core.content.ContentProviderCompat
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.gorkemersizer.pinterestdesign.databinding.FragmentMainScreenBinding
@@ -17,6 +18,7 @@ class MainScreenFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
+        //activity?.window?.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN)
         binding = FragmentMainScreenBinding.inflate(inflater, container, false)
 
         binding.rv.layoutManager = StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL)
