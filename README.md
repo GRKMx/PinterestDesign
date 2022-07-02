@@ -1,4 +1,4 @@
 # PinterestDesign
 Pinterest app design with RecyclerView.
 
-![image](https://user-images.githubusercontent.com/79326983/176906164-d4d1b3ed-ce96-4653-9a76-5872ecc62fd0.png)
+![image](https://user-images.githubusercontent.com/79326983/177005394-3930b69b-7ef4-4c7a-bd92-b5050fe851b4.png)
