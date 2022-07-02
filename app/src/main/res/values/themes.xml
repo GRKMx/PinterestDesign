@@ -3,7 +3,7 @@
     <style name="Theme.PinterestDesign" parent="Theme.MaterialComponents.Light.NoActionBar">
 
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:statusBarColor" >@color/gray</item>
+        <item name="android:statusBarColor" >@color/black</item>
         <item name="android:windowLightStatusBar">true</item>
 
         <!-- Primary brand color. -->
